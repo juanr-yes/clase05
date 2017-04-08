@@ -48,7 +48,7 @@ body {
 
 @media only screen and (max-width: 699px) {
    [class*="col-"] {
-      width: 500px;
+      width: 100%;
    }
    .col-8 {
       display: none;
@@ -85,5 +85,41 @@ body {
    }
    .col-8 {
       display: none;
+   }
+}
+@media only screen and (min-width: 1200px) {
+   .col-8 {
+      width: 30%;
+      float: right;
+   }
+   .col-1 {
+      width: 100%;
+   }
+   .col-2 {
+      width: 60%;
+      height: 20%;
+   }
+   .col-3 {
+      width: 40%; 
+      float: left;
+   }
+   .col-4 {
+      width: 40%;
+      float: left;
+   }
+   .col-5 {
+      width: 40%;
+      float: left;
+   }
+   .col-6 {
+      width: 40%;
+      float: left;
+   }
+   .col-7 {
+      width: 100%;
+      clear: both;
+   }
+   .col-9 {
+      width: 75%;
    }
 }
