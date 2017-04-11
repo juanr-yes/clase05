@@ -25,6 +25,9 @@ body {
    }
 }*/
 
+@font-face { font-family: Montserrat; src: url('Montserrat-Bold.otf'); } 
+@font-face { font-family: Raleway; src: url('Raleway-Light.ttf'); } 
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -38,12 +41,45 @@ body {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+body {
+   font-size: 16px;
+}
+
+p {
+   font-family: Raleway, sans-serif;
+}
+
+h2 {
+   font-size: 1.5rem;
+   font-family: Montserrat, sans-serif;
+}
+
+h3 {
+   font-family: Montserrat, sans-serif;
+}
+
+h1 {
+   font-family: Montserrat, sans-serif;
+   margin-top: 8px;
+}
+
+.subtitulo {
+   font-size: 0.7em;
+   margin: -20px 0px 0px 0px;  
+}
 .col-1 {
    background-color: lightslategray;
+   font-size: 20px;
+   line-height: 25px;
+   padding: 1px 0px 1px 50px;
+   margin: -8px -5px 0px -8px;
 }
 
 .col-7 {
-  background-color: lightslategray;
+   background-color: lightslategray;
+   font-family: Montserrat, sans-serif;
+   padding: 1px 0px 6px 50px;
+   margin: -8px -5px 0px -8px;
 }
 
 @media only screen and (max-width: 699px) {
